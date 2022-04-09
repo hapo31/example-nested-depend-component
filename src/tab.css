@@ -1,0 +1,15 @@
+.tab-wrap {
+  display: flex;
+  justify-content: space-around;
+  gap: 3px;
+}
+
+.tab-item {
+  width: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.tab-item.active {
+  background-color: #ffe600;
+}
